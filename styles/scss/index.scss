@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap");
+
+:root {
+  --background-color: #f8f8f8;
+  --primary-color: #0f2854;
+  --secondary-color: #1c4d8d;
+  --accent-color: #4988c4;
+  --hover-color: #bde8f5;
+  --text-color: #333;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --background-color: #0f172a;
+    --primary-color: #1e3a8a;
+    --secondary-color: #3b82f6;
+    --accent-color: #60a5fa;
+    --hover-color: #1e293b;
+    --text-color: #e5e7eb;
+  }
+}
+
+$primary_font: "Mulish", sans-serif; // For Everything
+$secondary_font: "Quicksand", sans-serif; // For Headings
+
+
+
+body {
+  color: var(--text-color);
+}
